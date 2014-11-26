@@ -1,0 +1,23 @@
+Condition,Mortality Risk,Symptom,Symptom Relevance,Attribute,Unit,Attribute Relevance,Type,Value,Notes
+Chronic Obstructive Pulmonary Disease,2,Cough,1,Degree,,1,Cont,A little,(continuous range from a little bit -> moderate -> much)
+,,,,Duration,Days,1,Cont,1.777777778,(could be for years)
+,,,,Spirometer,,1.2,Ext,,(looking for external signal)
+,,Difficulty Breathing (Heaviness Gasping),1,Severity,Qualitative,2,Disc,Severe,"(1-mild, 2-moderate, 3-severe)"
+,,,,Duration,Days,1,Cont,60:2500,(could be for years)
+,,,,Spirometer,,1.2,Ext,,(looking for external signal)
+,,,,Sitting Position,Qualitative,1,Disc,Tripoding,
+,,Significant weight loss,3,Onset,Months,1,Cont,0.277777778,
+,,,,Severity,Compared to normal,1,Cont,A lot,(a little to a lot)
+,,,,Most recent time you were sick,Months,3,Cont,0.319444444,
+,,,,Dietary habits change,Compared to normal,2,Disc,Same:More,"(Less, Same, More)"
+,,,,Sleeping habits change,Compared to normal,3,Disc,Same:More,"(Less, Same, More)"
+,,,,Age,Years,3,Cont,0.902777778,
+,,blah,3,Observation,Yes/No,2,Boolean,T/F,(true or false)
+,,,,Spirometer,,1.2,Ext,,(looking for external signal)
+,,Difficulty performing significant arm work above shoulder level,2,Age,Years,3,Cont,0.111111111,(continuous range 1 to 100)
+,,,,Observation,Yes/No,2,Boolean,T/F,(true or false)
+,,blahhhh,1,Spirometer,,1,Ext,,(looking for external signal)
+Asthma,2,sfgfds,3,dfds,fdsf,1,fds,,
+,,fdsfds,2,fdsfds,dsfds,1.1,Disc,,
+fdsfs,1,fsds,1,fdsfds,fdsf,1.2,sfd,,
+fghjgj,3,Significant weight loss,3,Onset,Months,1,Cont,0.277777778,
